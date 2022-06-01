@@ -12,7 +12,9 @@ function darkMode() {
   textBox.style.backgroundColor = 'rgb(255 255 255 / 50%)';
   toggleIcon.children[0].textContent = 'Dark Mode';
   toggleIcon.children[1].classList.replace('fa-sun', 'fa-moon');
-  imageMode('dark');
+  image1.src = 'img/undraw_proud_coder_dark.svg';
+  image2.src = 'img/undraw_feeling_proud_dark.svg';
+  image3.src = 'img/undraw_conceptual_idea_dark.svg';
 }
 
 // Light Mode Styles
@@ -21,7 +23,9 @@ function lightMode() {
   textBox.style.backgroundColor = 'rgb(0 0 0 / 50%)';
   toggleIcon.children[0].textContent = 'Light Mode';
   toggleIcon.children[1].classList.replace('fa-moon', 'fa-sun');
-  imageMode('light');
+  image1.src = 'img/undraw_proud_coder_light.svg';
+  image2.src = 'img/undraw_feeling_proud_light.svg';
+  image3.src = 'img/undraw_conceptual_idea_light.svg';
 }
 
 // Switch theme dynamically
